@@ -22,6 +22,7 @@ declare const android: any;
 export class MapView extends MapViewBase {
 
     protected _markers: Array<Marker> = new Array<Marker>();
+    protected _shapes: Array<ShapeBase> = new Array<ShapeBase>();
     public _context: any;
     private _pendingCameraUpdate: boolean;
 
